@@ -30,7 +30,7 @@ html {
 body {
   font-family: "TH Sarabun New", system-ui, -apple-system, "Segoe UI",
     sans-serif;
-  font-size: 18px;
+  font-size: 12px;
   line-height: 1.6;
   color: var(--text-main);
   background-color: var(--bg-main);
