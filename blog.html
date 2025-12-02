@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hawo-world Blog</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Same fixed header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">
+        <span class="logo-main">Hawo-world</span>
+        <span class="logo-separator">&nbsp;</span>
+        <span class="logo-animated">
+          <span id="logo-animated-word" class="logo-animated-word">
+            Cybersecurity.
+          </span>
+        </span>
+      </div>
+
+      <nav class="main-nav">
+        <a href="index.html#hero" class="nav-link">Home</a>
+        <a href="index.html#about" class="nav-link">About</a>
+        <a href="blog.html" class="nav-link nav-link--active">Blog</a>
+        <a href="index.html#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <button class="menu-toggle" aria-label="Toggle navigation">
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="section blog-main-section">
+      <div class="container blog-main-inner">
+        <h1 class="blog-main-heading">The Hawo-world Blog</h1>
+        <p class="blog-main-intro">
+          Here’s where I break down threat intelligence, real-world attack patterns,
+          and practical defenses—so you can stay informed and secure.
+        </p>
+
+        <!-- Placeholder area for future posts -->
+        <div class="blog-posts-placeholder">
+          <p>
+            <em>Blog posts coming soon.</em> This space will feature deep dives,
+            guides, and research notes focused on cybersecurity, research,
+            automations, and threat intelligence.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reuse the same contact/footer section for consistency -->
+    <section id="contact" class="section contact-section">
+      <div class="container contact-inner">
+        <div class="contact-left">
+          <h2 class="contact-heading">Get in touch</h2>
+          <p class="contact-text">
+            If you’d like to collaborate, ask a question, or discuss my tools or
+            research, feel free to reach out.
+          </p>
+        </div>
+
+        <div class="contact-right">
+          <ul class="contact-list">
+            <li class="contact-item">
+              <span class="contact-icon email-icon">✉</span>
+              <a href="mailto:hawo_world@protonmail.com" class="contact-link">
+                hawo_world@protonmail.com
+              </a>
+            </li>
+            <li class="contact-item">
+              <span class="contact-icon linkedin-icon">in</span>
+              <a href="https://www.linkedin.com/in/hawo-world"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 class="contact-link">
+                linkedin.com/in/hawo-world
+              </a>
+            </li>
+            <li class="contact-item">
+              <span class="contact-icon github-icon">GH</span>
+              <a href="https://github.com/Hawo-world"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 class="contact-link">
+                Hawo-world
+              </a>
+            </li>
+            <li class="contact-item">
+              <span class="contact-icon x-icon">X</span>
+              <a href="https://twitter.com/hawo_world"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 class="contact-link">
+                hawo_world
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
