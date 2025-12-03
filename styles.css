@@ -192,7 +192,7 @@ body {
   font-size: clamp(1.4rem, 2vw, 1.8rem);
   line-height: 1.3;
   font-weight: 500;
-  padding-top: 150px;
+  padding-top: 300px;
 }
 
 /* Scroll-down chevron */
