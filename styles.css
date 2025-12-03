@@ -173,6 +173,12 @@ body {
 
 /* ========= Hero Section ========= */
 
+.hero-text {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2rem; /* add spacing ABOVE the chevron */
+}
+
 .hero-section {
   min-height: calc(65vh - var(--header-height));
   display: flex;
