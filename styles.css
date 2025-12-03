@@ -177,7 +177,8 @@ body {
   min-height: calc(65vh - var(--header-height));
   display: flex;
   align-items: center;
-  padding-top: 4rem; 
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .hero-inner {
@@ -188,7 +189,7 @@ body {
 .hero-heading {
   margin: 0;
   text-align: center;
-  font-size: clamp(2.4rem, 4vw + 1rem, 3.6rem);
+  font-size: clamp(2rem, 3vw + 0.6rem, 2.8rem);
   font-weight: 500;
 }
 
@@ -222,7 +223,7 @@ body {
 .about-inner {
   display: flex;
   flex-direction: column;
-  gap: 2.75rem;
+  gap: 3rem;
 }
 
 .about-intro {
