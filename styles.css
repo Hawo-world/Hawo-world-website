@@ -174,9 +174,10 @@ body {
 /* ========= Hero Section ========= */
 
 .hero-section {
-  min-height: calc(100vh - var(--header-height));
+  min-height: calc(65vh - var(--header-height));
   display: flex;
   align-items: center;
+  padding-top: 4rem; 
 }
 
 .hero-inner {
@@ -224,9 +225,16 @@ body {
   gap: 2.75rem;
 }
 
+.about-intro {
+  max-width: 52rem;
+  margin: 0 auto;          
+  text-align: left;        
+}
+
 .about-heading {
   font-size: 2.4rem;
   margin: 0 0 0.35rem;
+  margin-left: -0.5rem;
 }
 
 .about-text {
@@ -244,6 +252,9 @@ body {
   border: 1px solid rgba(148, 163, 184, 0.6);
   padding: 1.5rem 1.4rem 1.25rem;
   background: rgba(15, 23, 42, 0.45);
+
+  display: flex;              
+  flex-direction: column;
 }
 
 .about-card-title {
@@ -258,14 +269,13 @@ body {
 }
 
 .about-card-footer {
-  margin-top: 0.9rem;
+  margin-top: auto;           
+  text-align: right;          
 }
 
 /* ========= Blog Preview Section ========= */
 
 .blog-preview-section {
-  border-top: 1px solid rgba(148, 163, 184, 0.25);
-  border-bottom: 1px solid rgba(148, 163, 184, 0.25);
 }
 
 .blog-preview-inner {
