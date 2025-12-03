@@ -176,7 +176,7 @@ body {
 .hero-text {
   width: 100%;
   text-align: center;
-  margin-bottom: 2rem; /* add spacing ABOVE the chevron */
+  margin-bottom: 5rem; /* add spacing ABOVE the chevron */
 }
 
 .hero-section {
