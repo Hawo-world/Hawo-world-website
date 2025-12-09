@@ -439,10 +439,39 @@ body {
   margin-bottom: 1.4rem;
 }
 
-.blog-posts-placeholder {
-  border: 1px dashed rgba(148, 163, 184, 0.7);
-  padding: 1.5rem;
+.blog-posts {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+  margin-top: 1.5rem;
+}
+
+.blog-post {
+  border: 1px solid rgba(148, 163, 184, 0.45);
   border-radius: 0.5rem;
+  padding: 1.4rem 1.6rem 1.3rem;
+  background: rgba(15, 23, 42, 0.6);
+}
+
+.blog-post-meta {
+  margin: 0 0 0.3rem;
+  font-size: 0.9rem;
+  color: var(--text-soft);
+  font-style: italic;
+}
+
+.blog-post-title {
+  margin: 0 0 0.5rem;
+  font-size: 1.6rem;
+}
+
+.blog-post-excerpt {
+  margin: 0 0 0.9rem;
+}
+
+.blog-post-footer {
+  margin: 0;
+  text-align: right;
 }
 
 /* ========= Responsive ========= */
